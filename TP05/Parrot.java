@@ -5,7 +5,7 @@ public class Parrot {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream("output.log")));
 
-        String line = null;
+        String line;
         while ((line = reader.readLine()) != null && !line.equals("Done")) {
             writer.write(line);
             writer.newLine();

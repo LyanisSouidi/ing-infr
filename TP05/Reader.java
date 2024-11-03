@@ -7,7 +7,7 @@ public class Reader {
             System.exit(1);
         }
         BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream(args[0])));
-        String line = null;
+        String line;
         while ((line = reader.readLine()) != null) {
             System.out.println(line);
         }
