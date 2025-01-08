@@ -26,10 +26,12 @@ ufw disable
 
 ```bash
 # Liste des règles
-iptables --list
+#iptables --list
+iptables -L
 
 # Nom des interfaces réseaux
-ip link
+#ip link
+ip l
 ```
 
 - Script bash de configuration du firewall : [firewall.sh](./firewall.sh)
