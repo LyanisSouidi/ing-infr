@@ -1,5 +1,10 @@
 # Réponses 
 
+# Exercice 1
+
+- Serveur qui écoute sur le port 2023 : [Server.java](./Server.java)
+- Client qui parle sur le port 2023 : [Client.java](./Client.java)
+
 ## Exercice 2
 
 ```bash
@@ -27,5 +32,5 @@ iptables --list
 ip link
 ```
 
-Script : [firewall.sh](./firewall.sh)
+- Script bash de configuration du firewall : [firewall.sh](./firewall.sh)
 
